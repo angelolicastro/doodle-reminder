@@ -76,6 +76,7 @@ def main():
     if not isValidDoodlePoll(args.url):
         print('%s: %s is probably not a valid Doodle poll.' %
         (basename(__file__), args.url))
+        _exit(0)
 
     html = get(args.url).text
     beautifulSoup = BeautifulSoup(html, 'html.parser')
