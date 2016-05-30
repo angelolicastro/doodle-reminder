@@ -5,6 +5,8 @@ Doodle Reminder is a script that reminds people who have not participated in a D
 ## Requirements
 
 * Python 3
+* Beautiful Soup
+* Requests
 * A Mailgun account
 
 ## Installation
