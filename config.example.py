@@ -20,6 +20,6 @@ mailgunSMTPLoginName = 'XXXXX'
 reminderEmailSubject = 'Please Complete the %s Doodle'
 
 # You may use %s to represent the name of the nonparticipant and the URL of the
-#  Doodle poll, respectively.
+# Doodle poll, respectively.
 reminderEmailText = '%s: This is an automated reminder to please complete the \
 following Doodle: %s'
