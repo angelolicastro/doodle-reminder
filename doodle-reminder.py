@@ -44,8 +44,6 @@ except ImportError as e:
     basename(__file__))
     _exit(0)
 
-from sys import argv
-
 def isValidDoodlePoll(url):
     """Returns True if url is probably a valid Doodle poll, False otherwise."""
     return (match('http(s)?://(www.)?doodle\.com/poll/.+', url) and
